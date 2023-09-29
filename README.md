@@ -1,5 +1,4 @@
-# SmartBrain-api - Dockerized
-Final project for ZTM course - using Docker
+# Face Recognition Brain Backend - Dockerized
 
 1. Clone this repo
 2. run `npm install`
