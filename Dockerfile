@@ -16,5 +16,3 @@ ARG NODE_VERSION=18.17.1
 
 # Environment
 ENV NODE_VERSION $NODE_VERSION
-
-RUN docker compose up --build
