@@ -17,4 +17,4 @@ ARG NODE_VERSION=18.17.1
 # Environment
 ENV NODE_VERSION $NODE_VERSION
 
-# CMD ["./docker-compose", "up", "--build"]
+CMD ["./docker-compose", "up", "--build"]
