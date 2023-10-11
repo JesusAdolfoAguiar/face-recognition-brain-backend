@@ -28,9 +28,9 @@ services:
     container_name: backend
     build: ./
     volumes:
-      - ./:/usr/src/smart-brain-api
+      - ./:/root/face-recognition-brain-backend
     command: npm start
-    working_dir: /usr/src/smart-brain-api
+    working_dir: /root/face-recognition-brain-backend
     ports:
       - "3000:3000"
     environment:
